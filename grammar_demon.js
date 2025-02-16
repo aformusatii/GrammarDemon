@@ -10,7 +10,7 @@ listener.addListener((e, down) => {
   //const ctrlFlag = down["LEFT CTRL"] || down["RIGHT CTRL"];
   const altFlag = down["LEFT ALT"] || down["RIGHT ALT"];
   const shiftFlag = down["LEFT SHIFT"] || down["RIGHT SHIFT"];
-  if (e.state === 'DOWN' && e.rawKey.name === 'K' && altFlag && shiftFlag) {
+  if (e.state === 'DOWN' && e.rawKey.name === 'G' && altFlag && shiftFlag) {
 	console.log("Key press 2");
     // Get the current clipboard content
     clipboardy.read().then((text) => {
