@@ -11,6 +11,8 @@
   "license": "ISC",
   "dependencies": {
     "clipboardy": "^4.0.0",
-    "node-global-key-listener": "^0.3.0"
+    "dotenv": "^16.4.7",
+    "node-global-key-listener": "^0.3.0",
+    "openai": "^4.85.1"
   }
 }
